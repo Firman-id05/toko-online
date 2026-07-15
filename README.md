@@ -5,7 +5,7 @@ Proyek ini adalah backend API untuk sistem Toko Online sederhana yang dibuat men
 Fitur Utama
 CRUD Products: Tambah, lihat, ubah, dan hapus data produk.
 Laporan Analisis: Laporan total belanja customer, produk terlaris, dan lainnya.
-Dokumentasi Interaktif**: Auto-generated Swagger UI (`/docs`).
+Dokumentasi Interaktif: Auto-generated Swagger UI (`/docs`).
 
 Cara Menjalankan Secara Lokal
 
