@@ -57,10 +57,10 @@ async def lifespan(app: FastAPI):
         
         # Tambah Products
         cursor.executemany("INSERT INTO products (nama_produk, kategori, harga) VALUES (?, ?, ?)", [
-            ("Hp Iphone  17 pro max", "Elektronik", 7500000),
-            ("Laptop asus THINKPAD", "Elektronik", 150000),
-            ("Kemeja Flanel", "Fashion", 250000),
-            ("Sepatu ADIDAS samba", "Fashion", 1200000),
+            ("Hp Iphone  17 pro max", "Elektronik", 25000000),
+            ("Laptop asus THINKPAD", "Elektronik", 3000000),
+            ("Baju batik", "Fashion", 250000),
+            ("Sepatu ADIDAS samba", "Fashion", 600000),
             ("Kopi Susu", "FnB", 45000),
             ("mojito anggur", "FnB", 35000)
         ])
